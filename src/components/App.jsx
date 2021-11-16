@@ -5,7 +5,7 @@ import Navigation from "./Navbar";
 import CarouselComponent from "./Languages.jsx";
 import Project from "./Projects";
 import Contacts from "./Contact";
-
+import Header from "./Header";
 
 
 function App() {
@@ -15,12 +15,18 @@ function App() {
      <Navigation/>
      </header>
      <main>
+     
+     <Header/>
      <br />
+     <div className="bg-dark">
+     <br/>
      <Project />
      <CarouselComponent/>
      <Contacts />
+      </div>
      </main>
      </div>
+     
   );
 }
 

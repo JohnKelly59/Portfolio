@@ -6,13 +6,17 @@ import job from "./job.png";
 import game from "./game.png";
 import "./index.css";
 import Fade from 'react-reveal/Fade';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBriefcase} from '@fortawesome/free-solid-svg-icons'
 
 function Project(){
 
     return(  
     <><div id="projects" className= "bg-dark">
-    
+      <div className="title text-white">
+    <FontAwesomeIcon icon={faBriefcase} style={{color: "#FFF"}} size="6x"/>
+    <h1>Languages</h1>
+    </div>
     <hr className="featurette-divider" /> <Fade bottom><div className="row featurette">
             <div className="col-md-7">
                 <h2 className="featurette-heading text-light">JobLogger</h2><h6  className="text-muted">HTML, CSS, JavaScript, Node.js, Passport.js, MySQL, AWS(deployment)</h6>
@@ -25,14 +29,8 @@ function Project(){
                  authentication so all of your information is safe and secured.</p>
             </div>
             <div className="col-md-5">
-            <div className="container">
-            <img  width="500" height="333" src={job} alt="job" />
-            <a  href="http://jobs-env.eba-yydrnnmi.us-east-2.elasticbeanstalk.com/">
-                <div className="overlay">
-               <div className="text">DEMO</div>
-                </div>
-                </a>
-                </div>
+            <a className="darken"  href="http://jobs-env.eba-yydrnnmi.us-east-2.elasticbeanstalk.com/" ><img  width="100%" height="100%" src={job} alt="job" /></a>
+                
             </div>
         </div> </Fade><hr className="featurette-divider" /><Fade bottom><div className="row featurette ">
                 <div className="col-md-7 order-md-2">
@@ -44,16 +42,9 @@ function Project(){
                      user to be added to my subscriber list. The subscribers will be notified via email of
                      new games that are uploaded to GameHub.</p>
                 </div>
-                <div className="col-md-5 order-md-1">
-            
-                <div className="container">
-                <img className="image" width="500" height="333" src={game} alt="game" />
-                <a  href="http://node-env.eba-canptspm.us-east-2.elasticbeanstalk.com/">
-                <div className="overlay">
-               <div className="text">DEMO</div>
-                </div>
-                </a>
-                </div>
+                <div className="col-md-5 order-md-1">   
+                <a  className="darken" href="http://node-env.eba-canptspm.us-east-2.elasticbeanstalk.com/"> <img className="image" width="100%" height="100%" src={game} alt="game" /></a>
+              
                 </div>
             </div></Fade><hr className="featurette-divider" /><Fade bottom><div className="row featurette ">
                 <div className="col-md-7">
@@ -68,14 +59,10 @@ function Project(){
                      Holiday Season. Happy Holidays and Enjoy!</p>
                 </div>
                 <div className="col-md-5">
-                <div className="container">
-                <img  width="500" height="333" src={santa} alt="Santa" />
-                <a  href="https://main.d39ra7xx8jfbvf.amplifyapp.com/">
-                <div className="overlay">
-               <div className="text">DEMO</div>
-                </div>
-                </a>
-                </div>
+             
+               
+                <a className="darken" href="https://main.d39ra7xx8jfbvf.amplifyapp.com/"> <img  width="100%" height="100%" src={santa} alt="Santa" /></a>
+        
                 </div>
             </div></Fade><hr className="featurette-divider" /><Fade bottom><div className="row featurette ">
                 <div className="col-md-7 order-md-2">
@@ -88,14 +75,8 @@ function Project(){
                      email.</p>
                 </div>
                 <div className="col-md-5 order-md-1">
-                <div className="container">
-                <img  width="500" height="333" src={weather} alt="cWeather" />
-                <a  href="http://cweather-env.eba-m3g3smfu.us-east-2.elasticbeanstalk.com/">
-                <div className="overlay">
-               <div className="text">DEMO</div>
-                </div>
-                </a>
-                </div>
+                <a className="darken" href="http://cweather-env.eba-m3g3smfu.us-east-2.elasticbeanstalk.com/"> <img  width="100%" height="100%" src={weather} alt="cWeather" /></a>
+                
                 </div>
             </div></Fade><hr className="featurette-divider" /><Fade bottom><div className="row featurette ">
                 <div className="col-md-7">
@@ -103,14 +84,8 @@ function Project(){
                     <p className="lead text-light">Simple time calculator that therapist can use to calculate their treatment time with each patient.</p>
                 </div>
                 <div className="col-md-5">
-                <div className="container">
-                <img  width="500" height="333" src={time} alt="time" />
-                <a  href="https://johnkelly59.github.io/">
-                <div className="overlay">
-               <div className="text">DEMO</div>
-                </div>
-                </a>
-                </div>
+                <a className="darken" href="https://johnkelly59.github.io/"> <img  width="100%" height="100%" src={time} alt="time" /></a>
+               
                 </div>
             </div></Fade><hr className="featurette-divider" />
             </div> </>

@@ -1,34 +1,45 @@
 
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-
+import fe from "./felr.png";
+import be from "./belr.png";
+import './index.css'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHtml5} from '@fortawesome/free-brands-svg-icons'
+import { faCss3} from '@fortawesome/free-brands-svg-icons'
+import { faJsSquare} from '@fortawesome/free-brands-svg-icons'
+import { faReact} from '@fortawesome/free-brands-svg-icons'
+import { faNodeJs} from '@fortawesome/free-brands-svg-icons'
+import {faPython} from '@fortawesome/free-brands-svg-icons'
+import { faDatabase} from '@fortawesome/free-solid-svg-icons'
+import { faAws} from '@fortawesome/free-brands-svg-icons'
+import { faFileCode} from '@fortawesome/free-solid-svg-icons'
 
 
 function CarouselComponent(){
 
 return(
-    <div id="languages" style={{ display: 'block', width: "100%" }}>
-    <Carousel fluid={true}  className="bg-dark">
+    <div id="languages">
+   <div className="title text-white">
+   <FontAwesomeIcon icon={faFileCode} size="6x"/>
+    <h1>Languages</h1>
+    </div>
+    <Carousel>
       <Carousel.Item interval={1500}>
-        <img
-          className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-          alt="Image One"
-        />
+        <img className="d " src={fe} alt="Image One"/>
         <Carousel.Caption>
-          <h3>Label for first slide</h3>
-          <p>Sample Text for Image One</p>
+        
+          <h3><FontAwesomeIcon icon={faHtml5} size="3x"/>&nbsp; &nbsp;<FontAwesomeIcon icon={faCss3} size="3x"/>&nbsp; &nbsp;
+          <FontAwesomeIcon icon={faJsSquare} size="3x"/>&nbsp; &nbsp;<FontAwesomeIcon icon={faReact} size="3x"/></h3>
+          <p>HTML, CSS, JavaScript, React</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1500}>
-        <img
-          className="d-block w-100"
-src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-          alt="Image Two"
-        />
+      <img className="d " src={be} alt="Image Two"/>
         <Carousel.Caption>
-          <h3>Label for second slide</h3>
-          <p>Sample Text for Image Two</p>
+          <h3><FontAwesomeIcon icon={faNodeJs} size="3x"/>&nbsp; &nbsp;<FontAwesomeIcon icon={faPython} size="3x"/>&nbsp; &nbsp;
+          <FontAwesomeIcon icon={faDatabase} size="3x"/>&nbsp; &nbsp;<FontAwesomeIcon icon={faAws} size="3x"/></h3>
+          <p>Node.js, Python, SQl/NoSQL, AWS</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
