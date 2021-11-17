@@ -13,7 +13,6 @@ function App() {
     <div className="App">
    
     <header>
-    <title>John Kelly's Portfolio</title>
      <Navigation/>
      </header>
      <main>
