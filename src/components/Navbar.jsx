@@ -7,7 +7,7 @@ function Navigation(){
 return(
   <>
   <Fade>
-  <Navbar bg="dark" variant="dark">
+  <Navbar fixed="top" bg="dark" variant="dark">
     <Container>
     <Navbar.Brand href="#">John Kelly</Navbar.Brand>
     <Nav className="me-auto">

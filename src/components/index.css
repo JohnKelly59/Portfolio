@@ -41,7 +41,8 @@ a.darken:hover img {
 }
 
 .jumbotron{
-  padding: 350px;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 .jumbotron-heading{
 font-size:80px;
@@ -66,3 +67,14 @@ font-size:80px;
 .title.h1{
 font-size: 50px;
 }
+@media screen and (max-width: 650px) {
+  .headertitle {
+  font-size: 5.0em;
+  text-align: center;
+  }}
+  
+  @media screen and (max-width: 480px) {
+  .headertitle {
+    text-align: center;
+  font-size: 1.0em;
+  }}

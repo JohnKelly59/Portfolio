@@ -7,10 +7,10 @@ import ParticlesBg from 'particles-bg'
 function Header(){
     return( 
       <>
-    <section className="jumbotron text-center text-dark" >
-    <div className="container">
+    <section className=" jumbotron text-center text-dark" >
+    <div className="container-fluid">
     
-      <h1 className="jumbotron-heading">John Kelly</h1>
+      <h1 className=" jumbotron-heading">John Kelly</h1>
       
       <h1 className=" text-muted">Full Stack Developer</h1>
     </div>
