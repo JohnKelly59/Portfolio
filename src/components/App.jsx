@@ -11,6 +11,7 @@ import Header from "./Header";
 function App() {
   return (
     <div className="App">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <header>
      <Navigation/>
      </header>
@@ -25,6 +26,7 @@ function App() {
      <Contacts />
       </div>
      </main>
+     </meta>
      </div>
      
   );
