@@ -13,10 +13,12 @@ function Project(){
 
     return(  
     <><div id="projects" className= "bg-dark">
+      <Fade bottom>
       <div className="title text-white">
     <FontAwesomeIcon icon={faBriefcase} style={{color: "#FFF"}} size="6x"/>
-    <h1>Languages</h1>
+    <h1>Projects</h1>
     </div>
+    </Fade>
     <hr className="featurette-divider" /> <Fade bottom><div className="row featurette">
             <div className="col-md-7">
                 <h2 className="featurette-heading text-light">JobLogger</h2><h6  className="text-muted">HTML, CSS, JavaScript, Node.js, Passport.js, MySQL, AWS(deployment)</h6>

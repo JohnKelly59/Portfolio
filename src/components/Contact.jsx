@@ -10,10 +10,12 @@ import { faIdCard} from '@fortawesome/free-solid-svg-icons'
 function Contacts(){
 return(
     <div id="contact" className="container-fluid bg-dark text-white">
+ <Fade bottom>
  <div className="title">
  <FontAwesomeIcon icon={faIdCard} size="6x"/>
     <h1>Contact</h1>
     </div>
+    </Fade>
     <br/>
     <div className=" container-fluid row">
     <Fade bottom>

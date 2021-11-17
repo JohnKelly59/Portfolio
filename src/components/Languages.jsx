@@ -14,16 +14,19 @@ import {faPython} from '@fortawesome/free-brands-svg-icons'
 import { faDatabase} from '@fortawesome/free-solid-svg-icons'
 import { faAws} from '@fortawesome/free-brands-svg-icons'
 import { faFileCode} from '@fortawesome/free-solid-svg-icons'
-
+import Fade from 'react-reveal/Fade';
 
 function CarouselComponent(){
 
 return(
     <div id="languages">
+    <Fade bottom>
    <div className="title text-white">
    <FontAwesomeIcon icon={faFileCode} size="6x"/>
     <h1>Languages</h1>
     </div>
+    </Fade>
+    <Fade bottom>
     <Carousel>
       <Carousel.Item interval={1500}>
      
@@ -44,6 +47,7 @@ return(
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </Fade>
   </div>
 );
 }
