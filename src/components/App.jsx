@@ -15,9 +15,9 @@ function App() {
      <Navigation/>
      </header>
      <main>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
      <Header/>
-     </meta>
+    
      <br />
      <div className="bg-dark">
      <br/>
