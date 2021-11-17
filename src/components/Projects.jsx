@@ -12,7 +12,8 @@ import { faBriefcase} from '@fortawesome/free-solid-svg-icons'
 function Project(){
 
     return(  
-    <><div id="projects" className= "bg-dark">
+    <>
+    <div id="projects" className= "bg-dark container-fluid">
       <Fade bottom>
       <div className="title text-white">
     <FontAwesomeIcon icon={faBriefcase} style={{color: "#FFF"}} size="6x"/>
@@ -90,7 +91,8 @@ function Project(){
                
                 </div>
             </div></Fade><hr className="featurette-divider" />
-            </div> </>
+            </div> 
+            </>
            
 )
     }
