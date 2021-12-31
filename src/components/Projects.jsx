@@ -50,6 +50,8 @@ function Project() {
               <a
                 className="darken"
                 href="http://jobs-env.eba-yydrnnmi.us-east-2.elasticbeanstalk.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img width="100%" height="100%" src={job} alt="job" />
               </a>
@@ -79,6 +81,8 @@ function Project() {
               <a
                 className="darken"
                 href="http://node-env.eba-canptspm.us-east-2.elasticbeanstalk.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 <img
@@ -119,6 +123,8 @@ function Project() {
               <a
                 className="darken"
                 href="https://main.d39ra7xx8jfbvf.amplifyapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 <img width="100%" height="100%" src={santa} alt="Santa" />
@@ -149,6 +155,8 @@ function Project() {
                 <a
                   className="darken"
                   href="http://jmessager-env.eba-pimydv3b.us-east-2.elasticbeanstalk.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   <img
@@ -182,6 +190,8 @@ function Project() {
               <a
                 className="darken"
                 href="http://cweather-env.eba-m3g3smfu.us-east-2.elasticbeanstalk.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 <img width="100%" height="100%" src={weather} alt="cWeather" />
@@ -201,7 +211,12 @@ function Project() {
               </p>
             </div>
             <div className="col-md-5">
-              <a className="darken" href="https://johnkelly59.github.io/">
+              <a
+                className="darken"
+                href="https://johnkelly59.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {" "}
                 <img width="100%" height="100%" src={time} alt="time" />
               </a>
