@@ -49,7 +49,7 @@ function Project() {
             <div className="col-md-5">
               <a
                 className="darken"
-                href="http://jobs-env.eba-yydrnnmi.us-east-2.elasticbeanstalk.com/"
+                href="http://workoutapp-env.eba-5vn3jgdm.us-east-2.elasticbeanstalk.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
