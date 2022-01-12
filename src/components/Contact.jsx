@@ -74,7 +74,7 @@ function Contacts() {
             <p>
               <a
                 className="btn btn-secondary"
-                href="mailto:batboy.john91@gmail.com"
+                href="mailto:john.kellyfitness@gmail.com"
               >
                 View Page &raquo;
               </a>
