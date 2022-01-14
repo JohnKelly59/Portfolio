@@ -1,11 +1,11 @@
 import React from "react";
-import time from "./time.png";
-import santa from "./santa.png";
-import weather from "./weather.png";
-import job from "./job.png";
-import game from "./game.png";
-import jmessage from "./jmessage.png";
-import MonsterWorkout from "./MonsterWorkout.png";
+import time from "../images/time.png";
+import santa from "../images/santa.png";
+import weather from "../images/weather.png";
+import job from "../images/job.png";
+import game from "../images/game.png";
+import jmessage from "../images/jmessage.png";
+import MonsterWorkout from "../images/MonsterWorkout.png";
 import "./index.css";
 import Fade from "react-reveal/Fade";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
