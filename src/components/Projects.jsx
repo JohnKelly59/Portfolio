@@ -10,8 +10,43 @@ import "./index.css";
 import Fade from "react-reveal/Fade";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+//import projectTemplate from "../projectTemplate";
+//import ProjectCard from "./projectCard";
+
+// function createProjectCard(projectTemplate) {
+//   const baseUrl = "../images/";
+//   return (
+//     <ProjectCard
+//       key={projectTemplate.id}
+//       title={projectTemplate.title}
+//       build={projectTemplate.build}
+//       description={projectTemplate.description}
+//       URL={projectTemplate.URL}
+//       img={require("../images/MonsterWorkout.png")}
+//     />
+//   );
+// }
 
 function Project() {
+  // return (
+  //   <>
+  //     <div id="projects" className="bg-dark container-fluid">
+  //       <Fade bottom>
+  //         <div className="title text-white">
+  //           <FontAwesomeIcon
+  //             icon={faBriefcase}
+  //             style={{ color: "#FFF" }}
+  //             size="6x"
+  //           />
+  //           <h1>Projects</h1>
+  //         </div>
+  //       </Fade>{" "}
+  //       <hr className="featurette-divider" />{" "}
+  //       <Fade bottom>{projectTemplate.map(createProjectCard)}</Fade>
+  //       <hr className="featurette-divider" />
+  //     </div>
+  //   </>
+  // );
   return (
     <>
       <div id="projects" className="bg-dark container-fluid">
