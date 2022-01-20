@@ -39,12 +39,12 @@ function About() {
             about programming or implement a new technology into a solution. I
             like to compare programming to playing a video game, Pacman to be
             specific. For example, each day I learn something new or implement a
-            new technology, I equate it to the feeling of defeating the ghosts
-            and levelling up in the game. That determination and excitement to
-            continue to level up by deepening my understanding and perfecting my
-            craft really fuels my passion for programming even more. I am eager
-            and excited to enhance my knowledge and strive towards becoming the
-            best engineer I can be.{" "}
+            new technology, I equate it to the feeling of eating a power pellet
+            in Pac-Man and levelling up in the game. That determination and
+            excitement to continue to level up by deepening my understanding and
+            perfecting my craft really fuels my passion for programming even
+            more. I am eager and excited to enhance my knowledge and strive
+            towards becoming the best engineer I can be.{" "}
           </h3>
         </div>
       </Fade>
