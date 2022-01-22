@@ -243,7 +243,7 @@ function Project() {
               <p className="lead text-light">
                 Physical, Occupational, and Speech therapist are all required to
                 report the time they spent treating their patients. This time
-                calculator has a simplistics design so that therapist can use to
+                calculator has a simplistic design that therapist can use to
                 calculate their treatment time with each patient with ease and
                 minimum hassle.
               </p>
