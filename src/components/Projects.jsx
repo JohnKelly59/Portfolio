@@ -241,8 +241,11 @@ function Project() {
               <h2 className="featurette-heading text-light">Time Calculator</h2>
               <h6 className="text-muted "> HTML, CSS, JavaScript</h6>
               <p className="lead text-light">
-                Simple time calculator that therapist can use to calculate their
-                treatment time with each patient.
+                Physical, Occupational, and Speech therapist are all required to
+                report the time they spent treating their patients. This time
+                calculator has a simplistics design so that therapist can use to
+                calculate their treatment time with each patient with ease and
+                minimum hassle.
               </p>
             </div>
             <div className="col-md-5">
