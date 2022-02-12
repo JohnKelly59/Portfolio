@@ -1,7 +1,7 @@
 import React from "react";
 import time from "../images/time.png";
 import santa from "../images/santa.png";
-import weather from "../images/weather.png";
+import ecorate from "../images/ecorate.png";
 import job from "../images/job.png";
 import game from "../images/game.png";
 import jmessage from "../images/jmessage.png";
@@ -63,11 +63,11 @@ function Project() {
         <hr className="featurette-divider" />{" "}
         <Fade bottom>
           <div className="row featurette">
-            <div className="col-md-7">
+            <div className="col-md-7 order-md-2">
               <h2 className="featurette-heading text-light">MonsterWorkout</h2>
               <h6 className="text-muted">
-                HTML, CSS, JavaScript, Node.js, Passport.js(User Auth), MongoDB
-                Atlas, ejs AWS(elasticbeanstalk, codepipeline)
+                HTML, CSS, JavaScript, Node.js, RapidAPI, Passport.js(User
+                Auth), MongoDB Atlas, EJS, AWS(elasticbeanstalk, codepipeline)
               </h6>
               <p className="lead text-light">
                 MonsterWorkout is the ultimate fitness application.
@@ -92,6 +92,44 @@ function Project() {
                   width="100%"
                   height="100%"
                   src={MonsterWorkout}
+                  alt="MonsterWorkout"
+                />
+              </a>
+            </div>
+          </div>{" "}
+        </Fade>
+        <Fade bottom>
+          <div className="row featurette">
+            <div className="col-md-7">
+              <h2 className="featurette-heading text-light">EcoRate</h2>
+              <h6 className="text-muted">
+                HTML, CSS, JavaScript, Node.js, React.js/Redux, API, MongoDB
+                Atlas, AWS(elasticbeanstalk, codepipeline)
+              </h6>
+              <p className="lead text-light">
+                EcoRate is a web application that allows users to rate different
+                locations based on the cleanliness of their surrounding area,
+                the access to recycing bin and other recycling opportunities,
+                the use of reusable material, the establihments traffic, and the
+                amount of flaura surrounding the the area. The goal of this web
+                application is to encourage companiws to adapt more substainable
+                practices. This app uses Google Maps' API to render the map,
+                along with a database to save ratings and retrieve previous
+                ratings. the ratings are then rendered on the client side which
+                is built with react and redux for state control.
+              </p>
+            </div>
+            <div className="col-md-5">
+              <a
+                className="darken"
+                href="http://ecorate-env.eba-mk2mgked.us-east-2.elasticbeanstalk.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="100%"
+                  height="100%"
+                  src={ecorate}
                   alt="MonsterWorkout"
                 />
               </a>
@@ -204,40 +242,10 @@ function Project() {
           </div>
         </Fade>
         <hr className="featurette-divider" />
-        <Fade bottom>
-          <div className="row featurette ">
-            <div className="col-md-7 order-md-1">
-              <h2 className="featurette-heading text-light">cWeather</h2>
-              <h6 className="text-muted">
-                HTML, CSS, JavaScript, Node.js, APIs, AWS, EJS
-              </h6>
-              <p className="lead text-light">
-                Current Weather Web application gets the city and state that the
-                user inputs into the page and sends a request to the
-                "openweathermap" API. The API then returns a JSON package which
-                holds information about the requested location's weather. The
-                information recieved is then parsed and displayed to the user. A
-                contact page is also put in place so that the user can ask me
-                any questions via email.
-              </p>
-            </div>
-            <div className="col-md-5 order-md-1">
-              <a
-                className="darken"
-                href="http://cweather-env.eba-m3g3smfu.us-east-2.elasticbeanstalk.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <img width="100%" height="100%" src={weather} alt="cWeather" />
-              </a>
-            </div>
-          </div>
-        </Fade>
         <hr className="featurette-divider" />
         <Fade bottom>
           <div className="row featurette ">
-            <div className="col-md-7 order-md-2">
+            <div className="col-md-7 ">
               <h2 className="featurette-heading text-light">Time Calculator</h2>
               <h6 className="text-muted "> HTML, CSS, JavaScript</h6>
               <p className="lead text-light">
@@ -264,7 +272,7 @@ function Project() {
         <hr className="featurette-divider" />{" "}
         <Fade bottom>
           <div className="row featurette">
-            <div className="col-md-7">
+            <div className="col-md-7 order-md-2">
               <h2 className="featurette-heading text-light">JobLogger</h2>
               <h6 className="text-muted">
                 HTML, CSS, JavaScript, Node.js, Passport.js, MySQL,
