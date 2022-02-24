@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
-import Resume from "./resume.pdf";
 
 function Navigation() {
   return (
