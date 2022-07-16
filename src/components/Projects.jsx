@@ -6,6 +6,7 @@ import ecorate from "../images/ecorate.png";
 import job from "../images/job.png";
 import game from "../images/game.png";
 import jmessage from "../images/jmessage.png";
+import mobileApp from "../images/mobileApp.png";
 import MonsterWorkout from "../images/MonsterWorkout.png";
 import "./index.css";
 import Fade from "react-reveal/Fade";
@@ -62,6 +63,53 @@ function Project() {
           </div>
         </Fade>{" "}
         <hr className="featurette-divider" />{" "}
+        <Fade bottom>
+          <div className="row featurette">
+            <div className="col-md-7">
+              <h2 className="featurette-heading text-light">Workout Monster</h2>
+              <h6 className="text-muted">
+                React Native, Expo, JavaScript, Node.js, API, MongoDB, NoSQL,
+                AWS(elasticbeanstalk, codepipeline)
+              </h6>
+              <p className="lead text-light">
+                Workout Monster is an app made for the average person who
+                gym-goer. With it's simplistic design and feel, this app will
+                not only make setting up your workouts easier, but help you keep
+                track of your rest time, favorite exercises, workout duration,
+                and more! <br /> Key Features: <br />
+                -Workout Manager (Keep track of what Set you are on, how much
+                rest time you have, and how long you have been working out){" "}
+                <br />
+                -Randomizer (A page to generate random exercises and workouts
+                based on what your target for that day is.) <br />
+                -Favorites (Save your favorite exercises so you can never lose
+                them) <br />
+                -Logging (Jot down some notes or log what you did during your
+                workout session and save it to your account.)
+                <br />
+                -Search (Search through 1000+ exercises to that you might want
+                to incorporate into your workout routine) <br />
+                Download this free app now and enhance your fitness journey!!!
+              </p>
+            </div>
+            <div style={{ paddingLeft: "10%" }} className="col-md-5">
+              <a
+                className="darken"
+                href="https://apps.apple.com/us/app/workout-monster/id1634358262"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="100%"
+                  height="100%"
+                  src={mobileApp}
+                  alt="MonsterWorkout"
+                />
+              </a>
+            </div>
+          </div>{" "}
+        </Fade>
+        <hr className="featurette-divider" />
         <Fade bottom>
           <div className="row featurette">
             <div className="col-md-7 order-md-2">
