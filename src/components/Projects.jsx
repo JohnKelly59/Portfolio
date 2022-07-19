@@ -103,7 +103,7 @@ function Project() {
                   width="100%"
                   height="100%"
                   src={mobileApp}
-                  alt="MonsterWorkout"
+                  alt="WorkoutMonster"
                 />
               </a>
             </div>
