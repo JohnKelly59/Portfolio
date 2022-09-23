@@ -6,7 +6,7 @@ import ecorate from "../images/ecorate.png";
 import job from "../images/job.png";
 import game from "../images/game.png";
 import jmessage from "../images/jmessage.png";
-import mobileApp from "../images/mobileApp.png";
+import mobileApp from "../images/mobileApp4.PNG";
 import MonsterWorkout from "../images/MonsterWorkout.png";
 import "./index.css";
 import Fade from "react-reveal/Fade";
@@ -80,10 +80,13 @@ function Project() {
                 -Workout Manager (Keep track of what Set you are on, how much
                 rest time you have, and how long you have been working out){" "}
                 <br />
+                -Partners (Become workout partners with friends or with stangers
+                across the globe. Share workouts, and help each other with
+                reaching fitness goals.) <br />
                 -Randomizer (A page to generate random exercises and workouts
                 based on what your target for that day is.) <br />
-                -Favorites (Save your favorite exercises so you can never lose
-                them) <br />
+                -Favorites (Save your favorite exercises and workouts so you can
+                never lose them) <br />
                 -Logging (Jot down some notes or log what you did during your
                 workout session and save it to your account.)
                 <br />
@@ -101,7 +104,7 @@ function Project() {
               >
                 <img
                   width="100%"
-                  height="100%"
+                  height="60%"
                   src={mobileApp}
                   alt="WorkoutMonster"
                 />
