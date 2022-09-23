@@ -6,7 +6,7 @@ import ecorate from "../images/ecorate.png";
 import job from "../images/job.png";
 import game from "../images/game.png";
 import jmessage from "../images/jmessage.png";
-import mobileApp from "../images/mobileApp4.PNG";
+import mobileApp from "../images/mobileApp4.png";
 import MonsterWorkout from "../images/MonsterWorkout.png";
 import "./index.css";
 import Fade from "react-reveal/Fade";
