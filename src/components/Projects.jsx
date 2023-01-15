@@ -6,8 +6,13 @@ import ecorate from "../images/ecorate.png";
 import job from "../images/job.png";
 import game from "../images/game.png";
 import jmessage from "../images/jmessage.png";
+<<<<<<< Updated upstream
 import mobileApp from "../images/mobileApp.png";
+=======
+import mobileApp from "../images/apppic.png";
+>>>>>>> Stashed changes
 import MonsterWorkout from "../images/MonsterWorkout.png";
+import IT from "../images/itHomePage.png";
 import "./index.css";
 import Fade from "react-reveal/Fade";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -61,6 +66,43 @@ function Project() {
             />
             <h1>Projects</h1>
           </div>
+          <Fade bottom>
+            <div className="row featurette">
+              <div className="col-md-7 order-md-2">
+                <h2 className="featurette-heading text-light">
+                  Ideal Therapy Rehabilitation Srvices
+                </h2>
+                <h6 className="text-muted">
+                  Next.js, HTML, CSS, JavaScript, Node.js, AWS(elasticbeanstalk,
+                  codepipeline)
+                </h6>
+                <p className="lead text-light">
+                  Ideal Therapy, LLC has been offering high quality therapy
+                  services since 2008. We provide Occupational, Speech, Physical
+                  and Massage Therapy services. Some services are rendered in
+                  Homes, Schools, Rehabilitative Facilities, Nursing Homes, Our
+                  Patient Facilities, and other institutions. We have provided
+                  superior service to our clients and have assisted them in
+                  achieving their goals.
+                </p>
+              </div>
+              <div className="col-md-5">
+                <a
+                  className="darken"
+                  href="https://main.d1lfujhibgfo72.amplifyapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    width="100%"
+                    height="100%"
+                    src={IT}
+                    alt="MonsterWorkout"
+                  />
+                </a>
+              </div>
+            </div>{" "}
+          </Fade>
         </Fade>{" "}
         <hr className="featurette-divider" />{" "}
         <Fade bottom>
