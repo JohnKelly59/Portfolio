@@ -6,11 +6,7 @@ import ecorate from "../images/ecorate.png";
 import job from "../images/job.png";
 import game from "../images/game.png";
 import jmessage from "../images/jmessage.png";
-<<<<<<< Updated upstream
-import mobileApp from "../images/mobileApp.png";
-=======
 import mobileApp from "../images/apppic.png";
->>>>>>> Stashed changes
 import MonsterWorkout from "../images/MonsterWorkout.png";
 import IT from "../images/itHomePage.png";
 import "./index.css";
